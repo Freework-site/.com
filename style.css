@@ -1,0 +1,140 @@
+.bgimg{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('pic14.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 882px;
+	clip-path: polygon(0 0, 100% 0, 100% 92%, 51% 100%, 0 92%);
+	
+
+	
+
+
+
+}
+.headerset{
+	padding-top: 320px;
+	box-sizing: border-box;
+}
+.headerset h2{
+	font-size: 40px;
+
+}
+.headerset h1{
+  font-size: 51px;
+  font-weight: bold;
+}
+
+
+/*................... our services.................*/
+
+.ourservices{
+padding: 100px 0px 60px;
+height: 700px; 
+}
+
+
+.ourservices h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.rowsetting{
+	margin: 80px 0px !important;
+}
+.imgsetting{
+	border-radius: 50%;
+    height: 100px;
+    width:  100px;
+}
+.fa-shopping-cart{
+	margin-top: 16.5px;
+}
+.fa-lock{
+	margin-top: 16.5px;
+}
+.fa-desktop{
+	margin-top: 22px;
+}
+
+.rowsetting h2{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+
+.rowsetting{
+	padding: 10px;
+	color: #6c757d!important
+}
+
+
+/*------PORTFOLIO------*/
+
+.portfolio{
+	height: 1100px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold;
+
+}
+
+
+.card{
+	margin-top: 50px;
+}
+
+
+/*-------------FOOTER-------*/
+
+
+
+.footer{
+	height: 20px;
+	margin-top: 29px;
+}
+.footer h6{
+	line-height: 20px;
+}
+
+
+/*--------responsive-----------*/
+
+
+@media(min-width:992px ){
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+
+}
+
+@media(min-width: 465px) and (max-width: 574px){
+
+}
+
+@media(max-width: 465px){
+	.headerset h2{
+	font-size: 22px;
+
+}
+.headerset h1{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.ourservices{
+
+height: 2000px; 
+}
+    
+}

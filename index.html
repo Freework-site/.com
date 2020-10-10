@@ -22,10 +22,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-    
+
 </head>
 <body>
-    
+
 <div class="bgimg">
         <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
             <div class="container">
@@ -49,20 +49,20 @@
                         <a href="" class="nav-link text-white">TEAM</a>
                     </li>
                 </ul>
-                
+
             </div>
-                
+
             </div>
-            
+
         </nav>
 
         <div class="container text-center text-warning headerset">
             <h2>WELCOME TO OUR WEBSITE!</h2>
             <h1>HOUSE OF FREELANCING LOVER </h1>
             <button class="btn btn-info text-white btn-lg"> JOIN US </button>
-            
+
         </div>
-        
+
 
 
 
@@ -72,7 +72,7 @@
     <section class="container text-center ourservices "> 
         <h1 class="text-info">SERVICES</h1>
         <p >Freework provide best freelancing service</p>
-          
+
 
           <div class="row rowsetting">
             <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
@@ -82,9 +82,9 @@
 
           <h2>E-Commerce</h2>
           <p>Electronic commerce. Electronic commerce more well known as e-commerce, consists of the buying or selling of products via electronic means such as the internet or other electronic services. This type of trade has been growing rapidly because of the expansion of the Internet. Freework is best Ecommerce site.</p>
-                
+
             </div>
-              
+
                <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
                 <div class="imgsetting d-block m-auto bg-warning"> 
                     <i class="fa fa-desktop  fa-4x text-white
@@ -92,7 +92,7 @@
 
           <h2>Web-Design</h2>
           <p>Web design. Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization.</p>
-                
+
             </div>
 
 
@@ -103,12 +103,12 @@
 
           <h2>Web-Security</h2>
           <p>Web  security is a branch of information security that deals specifically with security of websites, web applications and web services. At a high level, web application security draws on the principles of application security but applies them specifically to internet and web systems.Freework provide best security. </p>
-                
+
             </div>
 
 
           </div>
-         
+
      </section>
 
 <!--///////////////////PORTFOLIO///////////////-->
@@ -125,13 +125,13 @@
                         <h2 class="card-title"> FASHION</h2>
 
                         <p class="card-text">Lifestyle</p>
-                        
+
                     </div>
-                    
+
                 </div>
 
-                 
-                
+
+
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
@@ -141,13 +141,13 @@
                         <h2 class="card-title"> GRAPHIC</h2>
 
                         <p class="card-text">Illustration</p>
-                        
+
                     </div>
-                    
+
                 </div>
 
-                 
-                
+
+
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
@@ -157,15 +157,15 @@
                         <h2 class="card-title"> HARD WORK</h2>
 
                         <p class="card-text">Identify</p>
-                        
+
                     </div>
-                    
+
                 </div>
 
-                 
-                
+
+
             </div>
-            
+
         </div>
 
 
@@ -177,13 +177,13 @@
                         <h2 class="card-title"> WEB DESIGNING</h2>
 
                         <p class="card-text">Developer</p>
-                        
+
                     </div>
-                    
+
                 </div>
 
-                 
-                
+
+
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
@@ -193,13 +193,13 @@
                         <h2 class="card-title"> NATURE</h2>
 
                         <p class="card-text">Photography</p>
-                        
+
                     </div>
-                    
+
                 </div>
 
-                 
-                
+
+
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
@@ -209,22 +209,58 @@
                         <h2 class="card-title"> COMPANY</h2>
 
                         <p class="card-text">Branding</p>
-                        
+
                     </div>
-                    
+
                 </div>
 
-                 
-                
+
+
             </div>
-            
+
         </div>
-        
+
 
 
     </div>
+
+    <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
+<script type="text/javascript">
+function ValidateForm(frm) {
+if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+return true; }
+</script>
+<table style="max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+<tr> <td>
+<label for="Name">Name*:</label>
+</td> <td>
+<input name="Name" type="text" maxlength="60" style="max-width:250px;" />
+</td> </tr> <tr> <td>
+<label for="PhoneNumber">Phone number:</label>
+</td> <td>
+<input name="PhoneNumber" type="text" maxlength="43" style="max-width:250px;" />
+</td> </tr> <tr> <td>
+<label for="FromEmailAddress">Email address*:</label>
+</td> <td>
+<input name="FromEmailAddress" type="text" maxlength="90" style="max-width:250px;" />
+</td> </tr> <tr> <td>
+<label for="Comments">Comments*:</label>
+</td> <td>
+<textarea name="Comments" rows="7" cols="40" style="max-width:350px;"></textarea>
+</td> </tr> <tr> <td>
+* - required fields
+</td> <td>
+<div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
+<input name="skip_Submit" type="submit" value="Submit" />
+<script src="https://www.100forms.com/js/FORMKEY:8G2SSH4P5554/SEND:my@email.com" type="text/javascript"></script>
+</td> </tr>
+</table>
+</form>
 <footer class="footer">
-    
+
 
    <h6 class="text-center">Copyright © 2019, Design By Mirza Arslan</h6>  
 </footer>
@@ -232,20 +268,3 @@
 
 
 </section>
-
-
-
-        
- 
-
-
-
-
-
-</body>
-</html>
-	
-	
-
-
-    
